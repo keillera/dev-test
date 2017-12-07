@@ -1,0 +1,22 @@
+{
+	"ProjectName": "awsmobile",
+	"ProjectPath": "/Users/keiju/work/awsmobile",
+	"SourceDir": "./hello-world",
+	"DistributionDir": "dist",
+	"BuildCommand": "npm run-script build",
+	"StartCommand": "npm run-script start",
+	"InitializationTime": "2017-12-07-14-58-21",
+	"LastConfigurationTime": "2017-12-07-14-59-39",
+	"LastNPMInstallTime": "",
+	"FrontendLastBuildTime": "",
+	"LastPublishTime": "",
+	"BackendFormat": "yml",
+	"BackendLastBuildTime": "",
+	"BackendLastUpdateTime": "",
+	"BackendLastUpdateSuccessful": false,
+	"BackendProjectID": "aa3aa0c3-5329-4c1e-a6a2-e1f3d81d30de",
+	"BackendProjectName": "alis-dev-test",
+	"BackendProjectConsoleUrl": "https://console.aws.amazon.com/mobilehub/home#/aa3aa0c3-5329-4c1e-a6a2-e1f3d81d30de/build",
+	"BackendProjectCreationTime": "2017-12-07T05:49:22.364Z",
+	"BackendProjectLastUpdatedTime": "2017-12-07T08:34:47.291Z"
+}

@@ -1,0 +1,27 @@
+--- !com.amazonaws.mobilehub.v0.Project
+apps: 
+  web: !com.amazonaws.mobilehub.v0.AppDO {}
+features: 
+  content-delivery: !com.amazonaws.mobilehub.v0.ContentDelivery
+    attributes: 
+      enabled: true
+      visibility: public-global
+    components: 
+      release: !com.amazonaws.mobilehub.v0.Bucket {}
+  mobile-analytics: !com.amazonaws.mobilehub.v0.Pinpoint
+    components: 
+      analytics: !com.amazonaws.mobilehub.v0.PinpointAnalytics {}
+      messaging-sms: !com.amazonaws.mobilehub.v0.PinpointMessaging
+        attributes: 
+          deliveryType: sms
+  sign-in: !com.amazonaws.mobilehub.v0.SignIn
+    attributes: 
+      enabled: true
+      optional-sign-in: false
+    components: 
+      sign-in-facebook: !com.amazonaws.mobilehub.v0.StandardIdentityProvider
+        attributes: 
+          provider-id: "1442756885842000"
+          provider-name: facebook
+name: alis-dev-test
+region: ap-northeast-1
